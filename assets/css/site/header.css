@@ -171,9 +171,10 @@ p.information{
         margin:0;
         left:0;
         display: none;
-        width: 0;
-        background-color: #3D3131;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
         justify-content: flex-start;
+        align-items: flex-start;
         flex-direction: column;
         transition: all 0.3s ease-in-out;
     }
@@ -183,6 +184,7 @@ p.information{
         align-items: flex-start;
         flex-direction: column;
         height: 100%;
+        width: max-content;
     }
     .container-image img{
         width: 164px;
@@ -200,7 +202,7 @@ p.information{
 }
 .opened{
     right: 0;
-    width: max-content;
+    width: 100%;
     display: flex;
     animation: fadeInRight 0.4s forwards;
     z-index: 1;
