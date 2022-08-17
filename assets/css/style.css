@@ -4,3 +4,5 @@
 */
     @import "global/global.css";
     @import "site/header.css";
+    @import "util/util.css";
+    @import "animacoes/animacoes.css";

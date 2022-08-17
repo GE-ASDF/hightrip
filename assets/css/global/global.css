@@ -4,7 +4,7 @@
     margin:0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 a{
@@ -22,6 +22,10 @@ li{
 .container{
     max-width: 1440px;
     margin:0 auto;
+}
+
+img{
+    max-width: 100%;
 }
 
 .btn{

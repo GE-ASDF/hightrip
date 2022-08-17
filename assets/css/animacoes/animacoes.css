@@ -1,0 +1,12 @@
+@keyframes fadeInRight {
+    from{
+        transform: translate3d(-50px, 0px, 0px);
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+    }
+    to{
+        transform: translate3d(0px,0px,0px);
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+    }
+}
